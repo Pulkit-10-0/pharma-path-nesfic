@@ -8,6 +8,24 @@ that tag after CI, deployment and package checks. They identify frozen source
 `32809d1a200e8a977e7c0db902b55c5dfcffe20b`, CI, APK certificate/checksum and the
 physical-test boundary. See [download and verification details](ANDROID_DOWNLOAD.md).
 
+## Submission materials refreshed 9 November 2026
+
+These are the current submission materials for application release **1.4.2**:
+
+- [Main proof-of-work PDF](https://github.com/Pulkit-10-0/pharma-path-nesfic/releases/download/nesfic-i09-final-v1.4.2/Pharma_Path_Main_Submission_1.4.2.pdf)
+- [Additional supporting material](https://github.com/Pulkit-10-0/pharma-path-nesfic/releases/download/nesfic-i09-final-v1.4.2/Pharma_Path_Additional_Supporting_Material.pdf)
+- [Power BI analytics report](https://github.com/Pulkit-10-0/pharma-path-nesfic/releases/download/nesfic-i09-final-v1.4.2/Pharma_Path_Power_BI_Analytics.pdf)
+- [Submission pack and portal answers](https://github.com/Pulkit-10-0/pharma-path-nesfic/releases/download/nesfic-i09-final-v1.4.2/Pharma_Path_Submission_Pack.zip)
+- [Product demonstration video](https://youtu.be/WlZujgZDAj4)
+
+The refreshed main PDF identifies source `32809d1` and
+[CI run 42408307820](https://github.com/Pulkit-10-0/pharma-path-nesfic/actions/runs/42408307820).
+The website, API and APK remain frozen at that source. This is a materials and
+documentation refresh, not a new application build. Power BI remains a main
+analytical component alongside website and Android, with its scenario identified
+separately from the current benchmark and inventory replay. Prior 1.4.1 assets
+remain preserved as the earlier evidence record, rather than the current upload.
+
 ## Android connection patch
 
 Version 1.4.2 fixes Android DNS/network error handling. Public mobile requests use
@@ -27,7 +45,9 @@ this connection patch. See
 - Website: `/release.json`, and Help → release identity.
 - Backend: public `/health/release` returns the source commit, version and tag.
 - Android: More → Connected account shows its compiled version and source commit.
-- PDFs: the unchanged 1.4.1 snapshot identifies its original source
+- Current main and supporting PDFs: the refreshed materials above identify application release 1.4.2,
+  source `32809d1` and its current CI record.
+- Prior PDFs: the unchanged 1.4.1 snapshot identifies its original source
   `ecb9897df2a61c8f7cfe24463685c05b5ba28af0` and CI; its captured Android QR/online
   receipt is app 1.3.2. It is not physical acceptance evidence for APK 1.4.2.
 - Source: the immutable canonical tag. The existing deployment repository mirrors

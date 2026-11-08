@@ -24,9 +24,25 @@ The application was developed around **NESFIC-I-09**, the medicine demand and in
 
 > **Current evidence boundary:** the operational demonstration uses generated demand, fictional sites, approximate Assam town coordinates and illustrative business rules. A separate public pharmacy benchmark uses original observed category-sales data. Neither proves real GRD forecast accuracy, commercial savings or pilot outcomes.
 
+**Submission materials refreshed 9 November 2026.** Use the following current
+materials for evaluation. They describe application release **1.4.2**, frozen at
+source **32809d1**; this document refresh does not change the website, API or APK.
+
+- [Main proof-of-work PDF, version 1.4.2](https://github.com/Pulkit-10-0/pharma-path-nesfic/releases/download/nesfic-i09-final-v1.4.2/Pharma_Path_Main_Submission_1.4.2.pdf)
+- [Additional supporting material: research, evidence and pilot plan](https://github.com/Pulkit-10-0/pharma-path-nesfic/releases/download/nesfic-i09-final-v1.4.2/Pharma_Path_Additional_Supporting_Material.pdf)
+- [Power BI analytics report](https://github.com/Pulkit-10-0/pharma-path-nesfic/releases/download/nesfic-i09-final-v1.4.2/Pharma_Path_Power_BI_Analytics.pdf)
+- [Submission pack, including the twelve portal answers](https://github.com/Pulkit-10-0/pharma-path-nesfic/releases/download/nesfic-i09-final-v1.4.2/Pharma_Path_Submission_Pack.zip)
+- [Product demonstration video](https://youtu.be/WlZujgZDAj4)
+
+Power BI remains a main analytical component alongside the website and Android
+app. Its report labels its public-sales/simulated-supply scenario separately from
+the current benchmark and forecast-driven inventory replay. The prior 1.4.1
+documents remain preserved with their original evidence identities; use the
+refreshed materials above for the current submission.
+
 ![Current network and complete laptop navigation](docs/images/network-current.png)
 
-**Submission source — 7 November 2026.** Start with the [evaluator quick start](START_HERE.md)
+**Code review record — 7 November 2026.** Start with the [evaluator quick start](START_HERE.md)
 and [code review](docs/SUBMISSION_CODE_REVIEW_2026-11-07.md). This repository contains
 the team's complete application and analysis work. The current synthetic
 scenario contains **48 distributor-product requested-demand series over 260 weeks**, with requested and sales measures stored separately; [data and assumptions](datasets/assam-dynamic-v2/README.md)
@@ -456,7 +472,7 @@ Metadata declares `name`, `source_url`, `licence`, `geography`, `evidence_type`,
 
 The mobile client uses **React Native with Expo SDK 58** and native components. It connects directly to the same API as the website.
 
-**Current installation package: [Android 1.4.2 APK](https://github.com/Pulkit-10-0/pharma-path-nesfic/releases/download/nesfic-i09-final-v1.4.2/Pharma_Path_Android_1.4.2.apk), version code 9.** See [checksums, source and installation guidance](docs/ANDROID_DOWNLOAD.md). This connection patch preserves the account/cache/outbox identities and evaluation signing certificate. The 1.4.1 PDFs and recorded evidence retain their original build labels.
+**Current installation package: [Android 1.4.2 APK](https://github.com/Pulkit-10-0/pharma-path-nesfic/releases/download/nesfic-i09-final-v1.4.2/Pharma_Path_Android_1.4.2.apk), version code 9.** See [checksums, source and installation guidance](docs/ANDROID_DOWNLOAD.md). This connection patch preserves the account/cache/outbox identities and evaluation signing certificate. Current submission PDFs are linked above; the prior 1.4.1 PDFs and recorded evidence retain their original build labels.
 
 ### Field workflows
 
