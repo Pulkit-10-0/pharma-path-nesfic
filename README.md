@@ -11,12 +11,23 @@
 <p align="center">
   <a href="https://github.com/Pulkit-10-0/pharma-path-nesfic/actions/workflows/backend.yml"><img src="https://github.com/Pulkit-10-0/pharma-path-nesfic/actions/workflows/backend.yml/badge.svg?branch=main" alt="Product checks" /></a>
   · <a href="https://pharma-path.onrender.com/">Live demonstration</a>
+  · <a href="https://www.youtube.com/watch?v=WlZujgZDAj4">Watch demo video</a>
   · <a href="https://github.com/Pulkit-10-0/pharma-path-nesfic/releases/download/nesfic-i09-final-v1.4.2/Pharma_Path_Android_1.4.2.apk">Download Android 1.4.2</a>
   · <a href="https://startup.assam.gov.in/nesfic26/problem-statements/nesfic-i-09">Official challenge</a>
   · <a href="docs/WEBSITE_READ_ALONG.md">Website walkthrough</a>
   · <a href="docs/PRD_STATUS.md">Implementation status</a>
   · <a href="START_HERE.md">Evaluator quick start</a>
 </p>
+
+## Demo video
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=WlZujgZDAj4">
+    <img src="docs/images/demo-thumbnail.jpg" width="640" alt="Watch the Pharma Path demo on YouTube" />
+  </a>
+</p>
+
+See the planning website, Android receiving workflows, and Power BI analytics. [Watch the full demo on YouTube](https://www.youtube.com/watch?v=WlZujgZDAj4).
 
 **Pharma Path connects a forecast to a stock decision, and follows that decision through approval, dispatch and receipt.** It combines a planner website, an Android field app and a shared, authenticated backend. Staff can inspect demand and inventory, compare replenishment and redistribution options, protect donor locations, manage expiry risk, record physical handoffs and explain the resulting stock balance.
 
